@@ -1,0 +1,243 @@
+.nav-menu{
+	color: red;
+}
+#topnav .navigation-menu {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+#topnav .navigation-menu > li {
+  display: inline-block;
+  position: relative;
+}
+
+#topnav .navigation-menu > li > a {
+  display: block;
+  color: rgba(255, 255, 255,1);
+  font-weight: 500;
+  font-size: 16px;
+  -webkit-transition: all .5s ease;
+  transition: all .5s ease;
+  line-height: 20px;
+  padding-left: 25px;
+  padding-right: 5px;
+}
+#topnav .navigation-menu > li > a:hover{
+	color:var(--orange);
+}
+.navbar{
+	margin-bottom: 5px;
+}
+
+.bg-light {
+    background-color: #1633ff !important;
+}
+.navbar {
+    margin-bottom: 0;
+}
+.navbar-light .navbar-toggler {
+    color: #fff !important;
+    border:0;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: #fff;
+    font-size: 16px;
+    padding-right: 20px;
+    transition: 0.3s;
+}
+.navbar-light .navbar-nav .nav-link:hover{
+    color: var(--orange);
+}
+.navbar-light .navbar-nav .nav-link:focus{
+    color: #fff;
+}
+.form-inline .form-control{
+	border-color: var(--primary);
+}
+.card-box {
+	padding:0;
+}
+.table .thead-light th {
+	background:#BCDBFB;
+	color: #2C2C2C;
+}
+.nav-custom{
+	background-color: #fff;
+	padding: 0;
+	margin: 0; 
+	margin-bottom: 5px;
+	border-radius: 3px;
+}
+.nav-custom ul{
+	padding: 0;
+	margin-bottom: 0;
+}
+.nav-custom-inner{
+
+	list-style: none;
+}
+
+.nav-custom-inner > li {
+  display: inline-block;
+  position: relative;
+}
+
+.nav-custom-inner > li > a {
+  display: block;
+  color: var(--blue);
+  font-weight: 500;
+  font-size: 16px;
+  -webkit-transition: all .5s ease;
+  transition: all .3s ease;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding: 10px 15px;
+}
+.nav-custom-inner > li > a:hover{
+	color:var(--orange);
+}
+
+.modal .modal-dialog .modal-content .modal-header {
+    border-bottom: 0;
+    background-color: #24355e;
+    color: #fff;
+}
+.modal .modal-dialog .modal-content .modal-footer {
+    border-top: 0;
+}
+.directory-view{
+  padding: 10px;
+  color: #333;
+}
+
+
+.tr-0{
+  color: var(--danger) !important;
+  //background-color:#FFDEDE !important;
+}
+.tr-1{
+  color: var(--indigo) !important;
+  //background-color:#FFFAC8 !important;
+}
+.tr-2{
+  color: var(--success) !important;
+  //background-color: #bdffe3 !important;
+}
+thead
+{
+  background: #ececec !important;
+  border-bottom: 5px solid #ccc !important;
+}
+thead .tr_selected
+{
+  color: #333 !important;
+  background: #ececec !important;
+  border-bottom: 5px solid #ccc !important;
+  cursor: default !important;
+}
+.selected a
+{
+  background: #0056b3 !important;
+  color: #fff !important;
+}
+
+/*tbody tr:hover, .tr_selected 
+{
+  background-color: #0069ff !important;
+  color: #fff !important;
+  cursor: pointer !important;
+}
+tbody tr:hover a
+{
+  color: #fff !important;
+}
+*/
+
+#table-content {
+    max-height: calc(100% - 120px);
+    overflow-y: scroll;
+    padding: 0px 10% !important;
+    margin-top: 60px !important;
+}
+
+.model-h3{
+  color: var(--blue);
+  text-align: center;
+  text-transform: uppercase;
+  margin-top: -20px;
+  margin-bottom: 20px;
+}
+.cursor-pointer{
+  cursor: pointer;
+  color: var(--blue) !important;
+}
+
+.counts{
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 3px;
+    margin-bottom: 30px;
+    background-color: #ffffff;
+}
+.approved{
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 3px;
+    margin-bottom: 30px;
+    background-color: var(--success);
+    color: #fff;
+    min-height: 170px;
+}
+.waiting{
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 3px;
+    margin-bottom: 30px;
+    background-color: var(--warning);
+    color: #fff;
+    min-height: 170px;  
+}
+.info{
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 3px;
+    margin-bottom: 30px;
+    background-color: var(--info);
+    color: #fff;
+    min-height: 170px;  
+}
+.danger{
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 3px;
+    margin-bottom: 30px;
+    background-color: var(--danger);
+    color: #fff;
+    min-height: 170px;  
+}
+.count-icon{
+  font-size: 70px;
+  opacity: .6;
+  font-size: 70px;
+}
+.count-head{
+  font-size: 20px;
+}
+.count-value{
+  font-size: 40px;
+  font-weight: 600;
+}
+h6.element-header {
+    font-size: 18px;
+    line-height: 22px;
+    padding-top: 10px;
+    border-bottom: 1px solid #9E9E9E;
+    padding-bottom: 10px;
+}
+
+.mycontainer{
+      background:url(../images/Alert.png) left no-repeat #000000 ; 
+      background-size:20%;
+      color:#CCC;
+  }
